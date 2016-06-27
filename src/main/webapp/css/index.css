@@ -1,0 +1,289 @@
+/* Bootstrap overrides */
+body {
+    padding-top: 42px;
+    overflow: hidden;
+}
+
+.nav {
+    margin-bottom: 10px;
+}
+
+.modal {
+    display: none;
+}
+
+.modal-header h3 {
+    font-size: 18px;
+}
+
+.modal.fade {
+    top: -150%;
+}
+
+.add-on-inline {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    margin-left: -1px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    min-width: 16px;
+    padding: 4px 5px;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: auto;
+    white-space: nowrap;
+}
+
+.icon-remove {
+    margin-top: -4px;
+}
+.icon-plus {
+    margin-top: -4px;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* JsonEditor overrides */
+.jsoneditor {
+    border-color: #D6D6D6;
+}
+
+.jsoneditor .menu {
+    background-color: #F3F4F6;
+    border-bottom-color: #D6D6D6;
+}
+
+.jsoneditor .menu button.format {
+    width: 150px;
+}
+
+#main-container {
+    height: 95%;
+    position: fixed;
+    width: 100%;
+}
+
+/* sidebar */
+#sidebar {
+    width: 340px;
+    position: fixed;
+    height: 95%;
+}
+
+#sidebar-menu {
+    padding-left: 10px;
+}
+
+#case-tree, #dir-tree {
+    padding-left: 15px;
+    width: 325px;
+    overflow-y: auto;
+    position: absolute;
+    top: 42px;
+    bottom: 7px;
+    left: 0px;
+    right: 0px;
+}
+
+/* separator line */
+#separator-line {
+    height: 95%;
+    position: fixed;
+    margin-left: 340px;
+    border-right: 1px solid #CCCCCC;
+}
+
+/* main panel */
+#main-panel {
+    height: 100%;
+    margin-left: 340px;
+    position: relative;
+}
+
+#editor-panel {
+    padding-left: 15px;
+    overflow-y: auto;
+    position: absolute;
+    top: 42px;
+    bottom: 7px;
+    left: 0px;
+    right: 0px;
+    height: 95%;
+}
+
+.input-text-light {
+    border-radius: 0;
+    min-height: 18px;
+    padding: 5px;
+    padding-left: 0px;
+    color: #333333 !important;
+    border: none !important;
+    border-bottom: solid thin #cccccc !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    outline: none !important;
+}
+
+.input-text-light:focus {
+    border-bottom-color: #999999 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.request-url {
+    vertical-align: middle;
+}
+
+#menu-setup, #menu-verify, #menu-teardown {
+    max-height: 310px;
+    overflow: hidden;
+}
+
+#request {
+    margin-bottom: 15px;
+}
+
+#method {
+    width: 100px;
+}
+
+#responseSection {
+    /*width: 900px;*/
+    height: 300px;
+    padding-bottom: 20px;
+}
+
+#response {
+    /*width: 450px;*/
+    height: 300px;
+}
+
+#responseCopy {
+    /*width: 450px;*/
+    height: 300px;
+}
+
+#aceEditor {
+    /*width: 400px;*/
+    height: 300px;
+}
+
+#aceEditorCopy {
+    width: 400px;
+    height: 300px;
+}
+
+#entity-raw .jsoneditor {
+    width: 600px;
+    height: 300px;
+}
+
+li .left {
+    float: left;
+}
+
+li .right {
+    float: right;
+}
+
+#editor-container {
+    width: 510px;
+    height: 360px;
+    padding: 0px 20px 10px 0px;
+}
+
+textarea {
+    resize: none;
+}
+
+#verifies-section[class="in collapse"] {
+    overflow: visible;
+}
+
+#setup-section[class="in collapse"] {
+    overflow: visible;
+}
+
+#teardown-section[class="in collapse"] {
+    overflow: visible;
+}
+
+.btn {
+    font-size: 12px;
+}
+
+.btn-group > .btn {
+    font-size: 12px;
+}
+
+/* sortable */
+.ui-sortable {
+    display: block;
+    list-style-type: none;
+}
+
+.help {
+    border: solid #bbb 1px;
+    padding: 1em;
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#div {
+    border: 1px solid #CCCCCC;
+}
+
+.container {
+    max-width: 730px;
+}
+
+.ms-container {
+    width: 95%;
+}
+
+.ms-container .ms-list {
+    height: 800px;
+}
+
+.select-header {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.select-footer {
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.collapse.in {
+    display: table-row;
+}
+
+.highlight {
+    background-color: #08c;
+}
+
+.highlight td {
+    color: #fff;
+}
